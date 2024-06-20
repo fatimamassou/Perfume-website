@@ -154,6 +154,17 @@ main {
 }
 .product{
     margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 2px;
+    padding-bottom: 16px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.product:hover {
+    transform: scale(0.9);
+}
+.information-card {
+    text-align: center;
 }
 .prf1{
     width: 348px;
