@@ -112,46 +112,33 @@ main {
     padding: 50px 20px;
 }
 
-.about, .eshop, .contact {
-    max-width: 1000px;
-    margin: 0 auto;
+.about {
+    max-width: 1186px;
     text-align: center;
 }
-
+.eshop, .contact {
+    max-width: 1186px;
+    text-align: center;
+}
 .about h2, .eshop h2, .contact h2 {
     font-size: 18px;
 }
-.content{
-   background: url('../assets/bacgroundhome.jpg')no-repeat center center/cover;
-   color: white;
-   text-align: center;
-   padding: 246px 80px;
-   padding-bottom: 380px;
-   margin-left: -144px;
-   margin-right: -153px;   
-}
-.text h1 {
-    font-family:Georgia, serif ;
-    color:#000000 ;
-    font-size: xxx-large;
-    margin-top: -168px;
-    margin-bottom: 88px;
-
-}
-.text h1 span {
-    color:#ff9900 ;
-    font-size: xxx-large;
-
-}
 .about-us{
-    font-size:xxx-large ;
-    font-family: Georgia, serif;
-    color:#ff9900;
-    margin-top: 38px;
+    font-size: xx-large;
+    color: #ff9900;
     margin-bottom: 60px;
+}
+
+.content{
+   /* background: url('../assets/bacgroundhome.jpg')no-repeat center center/cover; */
+    display: flex;
+    margin-left: 100px;
 
 }
-.text p {
-    font-size:x-large ;
-    color: #000000;
+.about-img{
+    margin-right: 20px;
+}
+.text p{
+    
+
 }
