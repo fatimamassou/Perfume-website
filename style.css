@@ -122,6 +122,16 @@ main {
     font-size: 18px;
 }
 .content{
-   background: url('../assets/bacgroundhome.jpg');
-    
+   background: url('../assets/bacgroundhome.jpg')no-repeat center center/cover;
+   color: white;
+   text-align: center;
+   padding:  166px 54px;   
+}
+.text h1 {
+    font-family:Georgia, serif ;
+    color:#2F0909 ;
+    font-size: xx-large;
+    margin-top: -36px;
+    margin-bottom: 40px;
+
 }
