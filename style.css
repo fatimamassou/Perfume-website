@@ -5,7 +5,13 @@ body {
     box-sizing: border-box;
     user-select: none;
 }
-
+button {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+button:hover {
+    transform: scale(0.94);
+    background-color: #d88d1c;
+}
 header {
     background: url('assets/parfume11men.jpg') no-repeat center center/cover;
     color: white;
