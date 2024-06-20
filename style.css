@@ -11,6 +11,7 @@ header {
     color: white;
     text-align: center;
     padding: 50px 0;
+    padding-bottom: 108px;
 }
 
 nav {
@@ -64,8 +65,8 @@ nav ul li :hover{
 .search-bar button {
     padding: 5px 10px;
     font-size: 16px;
-    background-color: #d7a445;
-    color: antiquewhite;
+    background-color: #D67A1F;
+    color:black;
     border: none;
     cursor: pointer;
 }
@@ -80,10 +81,9 @@ nav ul li :hover{
     font-family: Georgia, serif;
 }
 .hero h1 span {
-    font-size: 50px;
-    margin-bottom: 20px;
-    font-family: Georgia, serif;
     color: #ff9900;
+    font-size: 58px;
+
 }
 .hero p {
     font-size: 24px;
@@ -125,13 +125,33 @@ main {
    background: url('../assets/bacgroundhome.jpg')no-repeat center center/cover;
    color: white;
    text-align: center;
-   padding:  166px 54px;   
+   padding: 246px 80px;
+   padding-bottom: 380px;
+   margin-left: -144px;
+   margin-right: -153px;   
 }
 .text h1 {
     font-family:Georgia, serif ;
-    color:#2F0909 ;
-    font-size: xx-large;
-    margin-top: -36px;
-    margin-bottom: 40px;
+    color:#000000 ;
+    font-size: xxx-large;
+    margin-top: -168px;
+    margin-bottom: 88px;
 
+}
+.text h1 span {
+    color:#ff9900 ;
+    font-size: xxx-large;
+
+}
+.about-us{
+    font-size:xxx-large ;
+    font-family: Georgia, serif;
+    color:#ff9900;
+    margin-top: 38px;
+    margin-bottom: 60px;
+
+}
+.text p {
+    font-size:x-large ;
+    color: #000000;
 }
