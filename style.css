@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('../assets/parfume11men.jpg') no-repeat center center/cover;
+    background: url('assets/parfume11men.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -62,7 +62,7 @@ nav ul li :hover{
     font-size: 16px;
 }
 
-.search-bar button {
+.search-bar-button {
     padding: 5px 10px;
     font-size: 16px;
     background-color: #D67A1F;
@@ -98,7 +98,7 @@ nav ul li :hover{
     color: #ff9900;
 
 }
-.hero button {
+.hero-button {
     padding: 15px 30px;
     font-size: 18px;
     background-color: #D67A1F;
@@ -116,11 +116,10 @@ main {
     max-width: 1186px;
     text-align: center;
 }
-.eshop, .contact {
+.eshop {
     max-width: 1186px;
-    text-align: center;
 }
-.about h2, .eshop h2, .contact h2 {
+.about h2, .eshop h2{
     font-size: 18px;
 }
 .about-us{
@@ -130,7 +129,6 @@ main {
 }
 
 .content{
-   /* background: url('../assets/bacgroundhome.jpg')no-repeat center center/cover; */
     display: flex;
     margin-left: 100px;
 
@@ -138,7 +136,159 @@ main {
 .about-img{
     margin-right: 20px;
 }
-.text p{
-    
+.text {
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 24px;
+}
+.text h1 {
+    color: #ff9900;
+    font-size: xx-large;
+}
 
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+}
+.product{
+    margin: 20px;
+}
+.prf1{
+    width: 348px;
+}
+.prf2{
+    width: 341px;
+}
+.prf3{
+    width: 300px;
+
+}
+.div-h1{
+    margin-top: 60px;
+    text-align: center;
+}
+.product p span {
+    text-decoration: line-through;
+    color: brown;
+}
+.product p {
+    font-size: x-large                                      ;
+    color: black;
+}
+.prfw1{
+    width: 270px;
+}
+.prfw2{
+    width: 280px;
+}
+.prfw3{
+    width: 314px;
+}
+.prfw4{
+    width: 250px;
+}
+.prfw5{
+    width: 250px;
+}
+.prfw6{
+    width: 268px;
+}
+.prfw7{
+    width: 345px;
+}
+.prfw8{
+    width: 276px;
+}
+.prfw9{
+    width: 228px;
+}
+.prfw10{
+    width: 257px;
+}
+.prfw11{
+    width: 274px;
+}
+.prfw0{
+    width: 276px;
+}
+#products{
+    margin-top: 20px;
+}
+.products img {
+    border-radius: 30px;
+}
+/* contact section */
+.div-contact {
+    background: url('assets/contact.jpeg')no-repeat center center/cover;
+    padding: 20%;
+
+}
+form {
+    float:right;
+    margin-top: -104px;
+}
+.input{
+    width: 340px;
+    height: 38px;
+    border-style: solid;
+    border-color:#D67A1F;
+    border-radius: 20px;
+    background-color: white ;
+    color:black;
+    padding-left: 20px;
+    margin-bottom:10px;
+}
+.message{
+    width: 340px;
+    height: 110px;
+    border-style:solid;
+    border-color:#D67A1F;
+    border-radius: 20px;
+    background-color: white ;
+    color:black;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom:10px;
+}
+.contact-button {
+    width: 360px;
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #D67A1F;
+    border-radius: 26px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+/* footer  */
+footer {
+    background-color: #000;
+    color: #D67A1F;
+    height: 200px;
+    padding-top: 60px;
+}
+footer a {
+    color: #D67A1F;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+footer li {
+    margin-right: 140px;
+    
+}
+.footer-p{
+    text-align: center;
+}
+footer li :hover{
+    color:#d7a445;
+    text-decoration: underline;
+    font-size: 20px;
 }
