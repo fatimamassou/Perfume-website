@@ -134,6 +134,7 @@ main {
     margin-bottom: 60px;
 }
 
+
 .content{
     display: flex;
     margin-left: 100px;
@@ -191,7 +192,7 @@ main {
     color: brown;
 }
 .product p {
-    font-size: x-large                                      ;
+    font-size: x-large;
     color: black;
 }
 .prfw1{
