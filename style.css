@@ -152,7 +152,13 @@ main {
     color: #ff9900;
     font-size: xx-large;
 }
-
+.title {
+    color: #060606;
+}
+.title span {
+    color:#ff9900;
+    font-size:larger;
+}
 .products{
     display: flex;
     align-items: center;
