@@ -158,6 +158,17 @@ main {
 .title span {
     color:#ff9900;
     font-size:larger;
+    position: relative;
+}
+
+.mostPopular{
+    position: relative;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 200px;}
 }
 .products{
     display: flex;
@@ -290,7 +301,7 @@ form {
 footer {
     background-color: #000;
     color: #D67A1F;
-    height: 200px;
+    height: 300px;
     padding-top: 60px;
 }
 footer a {
@@ -302,7 +313,7 @@ footer ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 90px;
+    margin-bottom: 40px;
 }
 footer li {
     margin-right: 140px;
@@ -311,8 +322,43 @@ footer li {
 .footer-p{
     text-align: center;
 }
-footer li :hover{
+footer .ul1 li :hover{
     color:#d7a445;
     text-decoration: underline;
     font-size: 20px;
+
+}
+.iconImg{
+    width: 20px;
+}
+.btn{
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #d7a445;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ul2 li a{
+    color: #8d8686;
+}
+.ul2 {
+    display: block;
+    margin-bottom: 0;
+}
+.uldiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.ul2 li a:hover{
+    text-decoration: underline;
 }
