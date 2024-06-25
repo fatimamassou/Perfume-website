@@ -122,6 +122,7 @@ main {
     max-width: 1186px;
     text-align: center;
 }
+
 .eshop .popular{
     max-width: 1186px;
 }
@@ -134,12 +135,9 @@ main {
     color: #ff9900;
     margin-bottom: 60px;
 }
-
-
 .content{
     display: flex;
     margin-left: 100px;
-
 }
 .about-img{
     margin-right: 20px;
@@ -169,7 +167,7 @@ main {
 
 @keyframes mymove {
     from {right: 0px;}
-    to {right: 200px;}
+    to {right: 60px;}
 }
 .products{
     display: flex;
@@ -185,7 +183,7 @@ main {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .product:hover {
-    transform: scale(0.9);
+    transform: scale(0.91);
 }
 .information-card {
     text-align: center;
