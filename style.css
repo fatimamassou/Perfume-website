@@ -190,14 +190,26 @@ main {
 .information-card {
     text-align: center;
 }
+.prfMp1{
+    width: 250px;
+}
+.prfMp2{
+  width: 300px;
+}
+.prfMp3{
+  width: 250px;
+}
 .prf1{
-    width: 348px;
+    width: 276px;
+    height: 286px;
 }
 .prf2{
-    width: 341px;
+    width: 276px;
+    height: 286px;
 }
 .prf3{
-    width: 300px;
+    width: 276px;
+    height: 286px;
 
 }
 .div-h1{
@@ -213,38 +225,48 @@ main {
     color: black;
 }
 .prfw1{
-    width: 270px;
+    width: 276px;
+    height: 286px;
 }
 .prfw2{
-    width: 280px;
+    width: 276px;
+    height: 286px;
 }
 .prfw3{
-    width: 314px;
+    width: 276px;
+    height: 287px;
 }
 .prfw4{
-    width: 259px;
+    width: 276px;
+    height: 286px;
 }
 .prfw5{
-    width: 262px;
+    width: 276px;
+    height: 286px;
 }
 .prfw6{
-    width: 278px;
+    width: 276px;
+    height: 286px;
 }
 .prfw7{
-    width: 280px;
-    height: 398px;
+    width: 276px;
+    height: 286px;
 }
 .prfw8{
     width: 276px;
+    height: 286px;
 }
 .prfw9{
-    width: 228px;
+    width: 276px;
+    height: 286px;
 }
 .prfw10{
-    width: 257px;
+    width: 276px;
+    height: 286px;
 }
 .prfw11{
-    width: 274px;
+    width: 276px;
+    height: 286px;
 }
 .prfw0{
     width: 276px;
