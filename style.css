@@ -56,7 +56,7 @@ nav ul li a {
 nav ul li :hover{
     color:#d7a445;
     text-decoration: underline;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 .search-bar {
     display: flex;
@@ -183,7 +183,7 @@ main {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .product:hover {
-    transform: scale(0.91);
+    transform: scale(0.94);
 }
 .information-card {
     text-align: center;
@@ -364,14 +364,13 @@ footer li {
 footer .ul1 li :hover{
     color:#d7a445;
     text-decoration: underline;
-    font-size: 20px;
-
 }
 .iconImg{
     width: 20px;
 }
 .btn{
-    border-radius: 100%;
+    border-radius: 40%;
+    border-color: transparent;
     padding: 10px;
     background-color: #d7a445;
     margin-right: 10px;
