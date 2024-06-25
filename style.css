@@ -163,7 +163,31 @@ main {
     font-size:larger;
     position: relative;
 }
-
+.text-New{
+    color:#B8860B;
+    text-align: center;
+}
+.new-img{
+    display: flex;
+    justify-content: center;
+}
+.content-NEW-Button{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.new-img img{
+    width: 500px;
+    height: 600px;
+    animation: mymove4 2s infinite ease-in-out;
+    position: relative;
+    border-radius: 20px;
+}
+@keyframes mymove4 {
+    from {height: 600px;width: 500px;}
+    to {height: 640px;width: 540px;}
+}
+    
 .mostPopular{
     position: relative;
     animation: mymove 3s infinite;
