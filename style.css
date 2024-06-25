@@ -178,7 +178,7 @@ main {
 }
 .product{
     margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     padding: 2px;
     padding-bottom: 16px;
@@ -196,8 +196,26 @@ main {
 .prfMp2{
   width: 300px;
 }
+.divprfMp2{
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.5);
+}
 .prfMp3{
   width: 250px;
+}
+.prfWp1{
+    width: 260px;
+    height: 360px;
+}
+.prfWp2{
+  width: 290px;
+  height: 450px;
+}
+.divprfWp2{
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.5);
+}
+.prfWp3{
+  width: 260px;
+  height: 360px;
 }
 .prf1{
     width: 276px;
