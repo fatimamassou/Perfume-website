@@ -166,6 +166,16 @@ main {
 .text-New{
     color:#B8860B;
     text-align: center;
+    font-size: larger;
+    animation: mymove4 3s infinite ease-in-out;
+    position: relative;
+
+}
+@keyframes mymove4 {
+    0%   {color:#B8860B; font-size: 20px;}
+    25%  {color:#dcad35; font-size: 10px;}
+    50%  {color:#76694a; font-size: 20px;}
+    100% {color: #d1b97d; font-size: 10px;}
 }
 .new-img{
     display: flex;
@@ -177,17 +187,11 @@ main {
     margin-top: 20px;
 }
 .new-img img{
-    width: 500px;
-    height: 600px;
-    animation: mymove4 2s infinite ease-in-out;
+    width: 450px;
+    height: 550px;
     position: relative;
     border-radius: 20px;
 }
-@keyframes mymove4 {
-    from {height: 600px;width: 500px;}
-    to {height: 640px;width: 540px;}
-}
-    
 .mostPopular{
     position: relative;
     animation: mymove 3s infinite;
