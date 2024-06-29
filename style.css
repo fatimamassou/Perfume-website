@@ -117,12 +117,18 @@ nav ul li :hover{
 main {
     padding: 50px 20px;
 }
-
+.aboutAllDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .about {
     max-width: 1186px;
-    text-align: center;
+ 
 }
-
+.about-us{
+    text-align: center;   
+}
 .eshop .popular{
     max-width: 1186px;
 }
