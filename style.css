@@ -64,16 +64,26 @@ nav ul li :hover{
 }
 
 .search-bar input {
-    padding: 5px;
+    padding: 8px;
     font-size: 16px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color:#D67A1F;
+    border-color:#D67A1F;
+    background-color: transparent;
 }
-
+.search-bar input:focus {
+    outline:#D67A1F solid 1px;
+}
 .search-bar-button {
     padding: 5px 10px;
+    width: 90px;
     font-size: 16px;
     background-color: #D67A1F;
     color:black;
     border: none;
+    border-radius: 26px;
     cursor: pointer;
 }
 
