@@ -161,6 +161,27 @@ main {
     height:865px;
     border-radius: 20px;
 }
+.team-information img{
+    width: 240px ;
+    /* border-radius: 50%; */
+}   
+.team-img {
+    width: auto;
+}
+.team-img p {
+    max-width: 300px;
+}
+.team-information{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.team-p{
+    width: 400px;
+}
+.div-Team-ALL {
+    background-color: #f3d4a5;
+}
 .text {
     word-wrap: break-word;
     text-align: justify;
